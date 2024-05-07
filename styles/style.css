@@ -209,25 +209,59 @@ button:hover {
 .newslatter-main {
     background-image: url('../images/Rectangle\ 9.png');
     border-radius: 8px;
-   padding: 115px 0;
+    padding: 115px 0;
 }
-#newslatter form{
+
+#newslatter form {
     display: flex;
     gap: 16px;
 
 }
-  
-#newslatter form input{
+
+#newslatter form input {
     width: 600px;
-   flex-grow: 1;
-   border: none;
-   font-size: 20px;
-   color: rgba(39, 39, 39, 0.6);
-font-family: Lato;
-font-size: 16px;
-font-weight: 400;
-line-height: 19px;
+    flex-grow: 1;
+    border: none;
+    font-size: 20px;
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    font-style: oblique;
+    outline: none;
+}
+
+.footer-container {
+    background: rgb(17, 16, 16);
+    width: 1922px;
+    height: 449px;
+    left: -2px;
+    right: 2px;
+    top: 4418px;
+    bottom: -4418px;
+    text-align: center;
+    padding: 128px 0;
+}
+.footer-color{
+    color: rgb(229, 84, 115);
+}
+.footer-container h2{
+    font-family: Lato;
+font-size: 48px;
+font-weight: 800;
+line-height: 58px;
 letter-spacing: 0%;
-font-style: oblique;
-outline: none;
+margin-bottom:24px;
+
+}
+.footer-container p{
+    color: rgba(255, 255, 255, 0.9);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
 }

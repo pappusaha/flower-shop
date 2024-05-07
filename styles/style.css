@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+
+}
+
+header,
+#hot-deal {
+    background: rgba(229, 84, 115, 0.1);
+
+}
+
+p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+button {
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 43px 20px 43px;
+    border: none;
+    transition: all 8s;
+}
+
+button:hover {
+    background-color: blue;
+
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 500px;
+    margin: 25px auto;
+}
+
+.section-heading h2 {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .banner-text h1 {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 96px;
+
+
+}
+
+.banner .banner-text * {
+    margin-bottom: 32px;
+    max-width: 525px;
+}
+
+
+
+.banner .banner-img img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+#featured {
+    padding: 100px 0;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20%;
+}
+
+.section-content .flower-1 .flower-img {
+    border-radius: 300px 300px 0px 0px;
+
+    padding: 30px 15px 0;
+    display: flex;
+    align-items: end;
+    height: 500px;
+}
+
+.section-content .flower-1 .flower-img {
+    width: 100%;
+}
+
+.section-content .flower-1 .pink {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.section-content .flower-1 .blue {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.section-content .flower-1 .green {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.section-content .flower-1 p {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.section-container {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0 auto;
+    width: 75%;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    align-items: center;
+    text-align: center;
+    margin: 0% auto;
+    margin-bottom: 20[x];
+    max-width: 1080px;
+    width: 75%;
+
+
+}
+
+.hot-deal-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0;
+    align-items: center;
+}
+
+#hot-deal .hot-deal-text {
+    max-width: 550px;
+    width: 75%;
+}
+
+#hot-deal .hot-deal-text h2 {
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(39, 39, 39);
+    margin-bottom: 24px;
+}
+
+#hot-deal .hot-deal-text h2 .important {
+    color: rgb(229, 84, 115);
+
+}
+
+.instagram-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+}
+
+#newslatter {
+    margin: 128px 0;
+}
+
+
+
+.newslatter-main {
+    background-image: url('../images/Rectangle\ 9.png');
+    border-radius: 8px;
+   padding: 115px 0;
+}
+#newslatter form{
+    display: flex;
+    gap: 16px;
+
+}
+  
+#newslatter form input{
+    width: 600px;
+   flex-grow: 1;
+   border: none;
+   font-size: 20px;
+   color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+font-style: oblique;
+outline: none;
+}
